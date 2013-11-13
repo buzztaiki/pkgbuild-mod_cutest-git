@@ -37,6 +37,7 @@ package() {
   cd $srcdir/$_pkgname
 
   make DESTDIR=$pkgdir/ install
+  mv $pkgdir/usr/lib/httpd/modules/libmodcutest.so $pkgdir/usr/lib
 
   install -D -m644 LICENSE ${pkgdir}/usr/share/licenses/${_pkgname}/LICENSE
 }
