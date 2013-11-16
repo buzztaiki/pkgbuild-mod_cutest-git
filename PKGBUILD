@@ -1,5 +1,5 @@
 # $Id: pkgbuild-mode.el,v 1.23 2007/10/20 16:02:14 juergen Exp $
-# Maintainer: Taiki Sugawara <sugawara_t@ariel-networks.com>
+# Maintainer: Taiki Sugawara <buzz.taiki@gmail.com>
 _pkgname=mod_cutest
 pkgname=$_pkgname-git
 pkgver=0.r30.405f14a
